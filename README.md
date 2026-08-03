@@ -9,6 +9,10 @@ GraphQL language support.
 - **Folding**: folds selection sets and type definitions.
 - **Symbol navigation**: types, interfaces, enums, inputs and fragments.
 
+## Installation
+
+To install `language-graphql` search for _language-graphql_ in the Install pane of the Lumine settings or run `lumine --install lumine-code/language-graphql`.
+
 ## Services
 
 - **hyperlink.injection** (`^1.0.0`): consumed to highlight URLs in these files as clickable links.

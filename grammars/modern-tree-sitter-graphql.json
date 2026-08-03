@@ -1,0 +1,22 @@
+{
+  "name": "GraphQL",
+  "scopeName": "source.graphql",
+  "type": "modern-tree-sitter",
+  "parser": "tree-sitter-graphql",
+  "injectionRegex": "^(graphql)$",
+  "fileTypes": ["graphql", "gql", "graphqls"],
+  "comments": {
+    "start": "# "
+  },
+  "treeSitter": {
+    // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
+    // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
+    // reporting `diverged` or a nonzero `behind` means it is not.
+    "parserSource": "github:bkegley/tree-sitter-graphql#5e66e961eee421786bdda8495ed1db045e06b5fe",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "grammar": "tree-sitter-graphql/tree-sitter-graphql.wasm",
+    "highlightsQuery": "tree-sitter-graphql/highlights.scm",
+    "indentsQuery": "tree-sitter-graphql/indents.scm",
+    "tagsQuery": "tree-sitter-graphql/tags.scm"
+  }
+}

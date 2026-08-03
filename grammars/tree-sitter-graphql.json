@@ -1,7 +1,7 @@
 {
   "name": "GraphQL",
   "scopeName": "source.graphql",
-  "type": "modern-tree-sitter",
+  "type": "tree-sitter",
   "parser": "tree-sitter-graphql",
   "injectionRegex": "^(graphql)$",
   "fileTypes": ["graphql", "gql", "graphqls"],

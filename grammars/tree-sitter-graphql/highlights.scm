@@ -61,9 +61,8 @@
 (field_definition
   (name) @variable.other.member.graphql)
 
-(object_value
-  (object_field
-    (name) @variable.other.member.graphql))
+((name) @variable.other.member.graphql
+  (#is? test.childOfType object_field))
 
 (enum_value
   (name) @variable.other.member.graphql)
@@ -77,16 +76,11 @@
 (fragment_name
   (name) @variable.other.graphql)
 
-(input_fields_definition
-  (input_value_definition
-    (name) @variable.parameter.graphql))
+((name) @variable.parameter.graphql
+  (#is? test.childOfType input_value_definition))
 
 (argument
   (name) @variable.parameter.graphql)
-
-(arguments_definition
-  (input_value_definition
-    (name) @variable.parameter.graphql))
 
 (variable_definition
   (variable) @variable.parameter.graphql)

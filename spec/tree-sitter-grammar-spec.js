@@ -1,13 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const highlightsPath = path.join(
-  __dirname,
-  "..",
-  "grammars",
-  "tree-sitter-graphql",
-  "highlights.scm",
-);
+const highlightsPath = path.join(__dirname, "..", "grammars", "graphql-highlights.scm");
 
 // Asserts the scopes the grammar actually produces, using the fixture beside
 // this file. `runGrammarTests` reads `<- scope` and `^ scope` assertions out of

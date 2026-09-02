@@ -13,7 +13,7 @@
     // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:bkegley/tree-sitter-graphql#5e66e961eee421786bdda8495ed1db045e06b5fe",
-    "wasmBuildTool": "tree-sitter-cli#v0.26.13",
+    "wasmBuildTool": "tree-sitter-cli#v0.27.0",
     "grammar": "graphql.wasm",
     "highlightsQuery": "graphql-highlights.scm",
     "indentsQuery": "graphql-indents.scm",

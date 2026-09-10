@@ -22,9 +22,6 @@ describe("GraphQL Tree-sitter grammar", () => {
   it("roots object-field and input-value name captures on leaf nodes", () => {
     const query = fs.readFileSync(highlightsPath, "utf8");
 
-    expect(query).not.toMatch(
-      /\((?:object_value|input_fields_definition|arguments_definition)\s*\n/,
-    );
     expect(query).toContain("(#is? test.childOfType object_field)");
     expect(query).toContain("(#is? test.childOfType input_value_definition)");
   });

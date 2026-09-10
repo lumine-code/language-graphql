@@ -105,7 +105,8 @@
 
 (description) @comment.line.graphql
 
-(comment) @comment.line.graphql
+((comment) @comment.line.graphql
+  (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
 
 (directive_location
   (executable_directive_location) @support.type.builtin.graphql)

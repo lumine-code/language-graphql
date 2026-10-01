@@ -16,6 +16,7 @@
     "wasmBuildTool": "tree-sitter-cli#v0.27.0",
     "grammar": "graphql.wasm",
     "highlightsQuery": "graphql-highlights.scm",
+    "injectionsQuery": "graphql-injections.scm",
     "indentsQuery": "graphql-indents.scm",
     "tagsQuery": "graphql-tags.scm"
   }

@@ -1,0 +1,16 @@
+{
+  "title": "language-graphql",
+  "description": "GraphQL syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "96fe59cfd234bc0f8ef8d2f8e7cb1b601d49fe2f",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "GraphQL syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 360
+    }
+  ]
+}

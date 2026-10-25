@@ -103,7 +103,7 @@
 ; Literals
 ;---------
 
-(description) @comment.line.graphql
+(description) @comment.block.graphql
 
 ((comment) @comment.line.graphql
   (#set! adjust.endBeforeFirstMatchOf "\\r?$"))

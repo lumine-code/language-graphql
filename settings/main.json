@@ -1,10 +1,12 @@
 {
   ".source.graphql": {
     "bracket-matcher": {
-      "autocompleteCharacters": ["()", "[]", "{}", "\"\"", "''"]
+      "autocompleteCharacters": ["()", "[]", "{}", "\"\""],
+      "pairsWithExtraNewline": ["()", "[]", "{}"]
     },
     "editor": {
-      "commentStart": "# "
+      "commentStart": "# ",
+      "nonWordCharacters": "/\\()\"':,.;<>~!#%^&*|+=[]{}`?-…"
     }
   }
 }

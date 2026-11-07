@@ -2,6 +2,9 @@
 Source: https://github.com/bkegley/tree-sitter-graphql
 Revision: 5e66e961eee421786bdda8495ed1db045e06b5fe
 
+Parser source: github:bkegley/tree-sitter-graphql#5e66e961eee421786bdda8495ed1db045e06b5fe
+Resolved commit: 5e66e961eee421786bdda8495ed1db045e06b5fe
+
 Original file: LICENSE
 
 MIT License

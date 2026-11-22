@@ -18,6 +18,7 @@
     "highlightsQuery": "graphql-highlights.scm",
     "injectionsQuery": "graphql-injections.scm",
     "indentsQuery": "graphql-indents.scm",
+    "tagsQuerySupportsLocalPath": true,
     "tagsQuery": "graphql-tags.scm"
   }
 }
